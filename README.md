@@ -15,7 +15,7 @@ The solution was to split up the incoming artnet data and send it to each strip 
 
 <img src="https://raw.githubusercontent.com/BleepLabs/Hopscotch-LED-matrix-/master/hopscotch-digram.jpg">
 
-Each controller consisted of a wis850io, Teensy 3.2, and 74HC244 to shift the 3v3 levels to 5. I could have probably used a 3.5 and controlled two rows with a single unit but time was short and this worked well in testing and was still much cheaper than the alternatives.
+Each controller consisted of a wis850io, Teensy 3.2, and 74HC244 to shift the 3v3 levels to 5. I could have probably used a 3.5 and controlled two rows with a single unit but time was short and this worked well in testing and was still much cheaper than the alternatives. Unfortunatley due to time constraints and the event setup happening during lunar new year I had to make them by hand on protoboard. 
 
 Each controller has it's own ip and would send one universe of data to one side of LEDs (273 elements) and another to the other side as it was just over the 512 element max. 
 
